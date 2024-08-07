@@ -110,7 +110,7 @@
                 >
                 <el-button
                   type="text"
-                  @click.stop="handleDeleteNode(data.teachPlanId)"
+                  @click.stop="handleDeleteNode(data.id)"
                   >删除本章</el-button
                 >
                 <!-- 上移 -->
